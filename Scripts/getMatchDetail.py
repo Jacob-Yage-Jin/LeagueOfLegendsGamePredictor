@@ -3,7 +3,7 @@ import csv
 import time
 import pandas as pd
 
-api_key = 'api_key=RGAPI-75ee585f-3575-4d9a-8fcd-6421493b657a'
+api_key = 'api_key=API-KEY'
 
 match_url = 'https://americas.api.riotgames.com/lol/match/v5/matches/'
 timeline = '/timeline'

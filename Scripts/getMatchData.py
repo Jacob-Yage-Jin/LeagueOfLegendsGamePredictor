@@ -2,7 +2,7 @@ import requests
 import csv
 import time
 
-api_key = 'api_key=RGAPI-4f4e680d-edd2-4202-8f74-12026cc61bc5'
+api_key = 'api_key=API-KEY'
 
 match_url = 'https://americas.api.riotgames.com/lol/match/v5/matches/'
 

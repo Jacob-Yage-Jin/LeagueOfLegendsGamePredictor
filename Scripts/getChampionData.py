@@ -6,7 +6,7 @@ import csv
 ## get the latest champion id and name, and write it to csv
 def writeChampionDataToCsv():
 
-    lol_watcher = LolWatcher('RGAPI-9b438a38-f3fb-4be7-a9af-12ad109f33ea')
+    lol_watcher = LolWatcher('API-KEY')
     my_region = 'na1'
     versions = lol_watcher.data_dragon.versions_for_region(my_region)
     champions_version = versions['n']['champion']
